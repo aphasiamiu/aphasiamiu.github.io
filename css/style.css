@@ -31,5 +31,13 @@ a{
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 15px;
-	padding-right: 15px
+	padding-right: 15px;
+	transition-duration: 0.3s;
+    transition-property: transform;
+	
+}
+.rounded-btn:active,
+.rounded-btn:hover,
+.rounded-btn:focus{
+	transform: scale(1.1);
 }
